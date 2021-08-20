@@ -1,5 +1,5 @@
 {
-  "name": "angular.io-example",
+  "name": "sandbox-universal",
   "version": "0.0.0",
   "description": "Example project from an angular.io guide.",
   "license": "MIT",
@@ -11,10 +11,10 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "dev:ssr": "ng run angular.io-example:serve-ssr",
+    "dev:ssr": "ng run sandbox-universal:serve-ssr",
     "serve:ssr": "node dist/server/main.js",
-    "build:ssr": "ng build && ng run angular.io-example:server",
-    "prerender": "ng run angular.io-example:prerender"
+    "build:ssr": "ng build && ng run sandbox-universal:server",
+    "prerender": "ng run sandbox-universal:prerender"
   },
   "private": true,
   "dependencies": {
