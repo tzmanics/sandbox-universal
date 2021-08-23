@@ -3,4 +3,4 @@
   publish = "dist/browser"
 
 [[plugins]]
-  package = "@netlify/plugin-angular-serverless"
+  package = "@netlify/plugin-angular-universal"
