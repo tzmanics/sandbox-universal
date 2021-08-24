@@ -1,5 +1,5 @@
 [build]
-  command = "ng build --configuration production && ng run sandbox-universal:serverless:production"
+  command = "ng build && ng run sandbox-universal:serverless:production"
   publish = "dist/browser"
 
 [[plugins]]
